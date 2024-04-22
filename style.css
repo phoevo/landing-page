@@ -1,4 +1,142 @@
-body{
-    background-color: aquamarine;
+.header{
+    display: flex;
+    padding: 0px;
+    border: 4px solid blue;
+    justify-content: space-around;
     
+}
+
+.logo{
+    display: flex;
+    background-color: blue;
+    flex-basis: 500px;
+
+}
+
+.top-links{
+    display: flex;
+    background-color: green;
+    flex-basis: 400px;
+    flex-direction: row;
+    padding-right: 10px;
+    justify-content: space-evenly;
+}
+
+
+.top{
+    display: flex;
+    border: 4px solid red;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.titles{
+    display: flex;
+    border:4px solid purple;
+    flex-direction: column;
+    flex-basis: 500px;
+
+}
+
+.picture{
+    display: flex;
+    border: 4px solid yellow;
+    
+}
+
+.middle{
+    display: flex;
+    border:4px solid orange;
+    padding-top: 50px;
+    flex-direction: column;
+}
+
+.SRI{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.islands{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.island{
+    display: flex;
+    border: 2px solid lightskyblue;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+   
+ 
+}
+ .texts {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+
+.text{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 200px;
+}
+
+.quote{
+    display:flex;
+    background-color: grey;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.smallerquote{
+    display: flex;
+    background-color: grey;
+    justify-content: right;
+    padding-right: 400px;
+    font-size: 25px;
+    font-family: Courier;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+   
+
+}
+
+.bluecontainer{
+    display: flex;
+    height: 150px;
+    width: 800px; 
+    border-radius: 15px;
+    flex-direction: column; 
+    border: 2px solid blue;
+    background-color: lightseagreen;
+   
+}
+
+.blue-text{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 2px solid blue;
+    flex-basis: 50%;
+}
+
+.button{
+    display: flex;
+    padding-right: 150px;
+    align-items: center;
+
 }
